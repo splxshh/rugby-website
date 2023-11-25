@@ -1,0 +1,24 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: fit-content;
+  padding: .5rem;
+  /* remove this rule to get rid of the outer border */
+  border: 1px dashed white; 
+  border-radius: 16px;
+
+}
+
+.player > div > img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.player .name-label {
+  display: flex;
+  /* remove this rule to make the number and name in the same line */
+  flex-direction: column;
+  align-items: center;
+}
