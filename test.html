@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/player.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -37,7 +38,16 @@
   </nav>
 
   <section id="content">
-    <div id="containe">
+    <!-- player component -->
+    <div class="player">
+      <div><img src="image.jpg"></div>
+      <div class="name-label">
+        <span>1.</span>
+        <span>J. Doe</span>
+      </div>
+    </div>
+
+    <div id="container">
       <div class="row relative mt-8">
         <div class="number mr-24"><img src="path/to/image1.jpg"></div>
         <div class="number absolute top-[-2rem]"><img src="path/to/image2.jpg"></div>
